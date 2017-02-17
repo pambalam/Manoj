@@ -1,0 +1,33 @@
+    1  pwd
+    2  git clone git@github.com:pambalam/Manoj.git
+    3  ssh
+    4  ssh-keygen -t rsa -b 4096 -C "manoj.pambala@gmail.com"
+    5  eval $(ssh-agent -s)
+    6  ssh-add ~/.ssh/id_rsa
+    7  git clone git@github.com:pambalam/Manoj.git
+    8  cat /c/Users/pambalam/.ssh/id_rsa.pub
+    9  git clone git@github.com:pambalam/Manoj.git
+   10  ls 
+   11  cd Manoj
+   12  git status
+   13  ls
+   14  touch manoj.txt
+   15  ls
+   16  git status
+   17  git add manoj.txt
+   18  git status
+   19  git commit -m "New test file" manoj.txt
+   20* git config -
+   21   git config --global 
+   22   git config --global user.name 
+   23   git config --global user.name  "manoj.pambala"
+   24   git config --global user.name 
+   25   git config --global user.email "manoj.pambala@gmail.com"
+   26  git status
+   27  git push origin master
+   28  git status 
+   29  history
+   30  cat history > manoj.txt
+   31  pwd
+   32  ls
+   33  history > manoj.txt 
